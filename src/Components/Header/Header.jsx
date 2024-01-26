@@ -9,7 +9,7 @@ const Header = ({ roomName }) => {
   return (
     <div className="wa-header">
       <div className="wa-header__back">
-        <NavLink to="/">
+        <NavLink to="/chat">
           <img src={backarrow} />
         </NavLink>
       </div>
@@ -31,7 +31,7 @@ const Header = ({ roomName }) => {
         <img className="wa-header__icons__call" src={callIcon}></img>
       </div>
       <div className="wa-header__icons option">
-        <SlOptionsVertical size={30} margin="auto" />
+        <SlOptionsVertical size={35}  />
       </div>
     </div>
   );

@@ -27,24 +27,27 @@
     margin-right: 15px;
   }
   &__info {
-    width: 60%;
+    width: 65%;
     p {
       margin: 0;
       font-size: 23px;
     }
   }
   &__icons {
-    width: 15%;
-    text-align: center;
-    
+    width: 18%;
+    display: flex;
+    justify-content: center;
+
     &__video {
-      height: 40px;
-      margin: auto;
+      height: 43px;
+      margin-right: 3px;
     }
     &__call {
-      height: 30px;
-      margin: auto;
+      height: 35px;
     }
   }
-  
+  .option {
+    display: flex;
+    justify-content: center;
+  }
 }
