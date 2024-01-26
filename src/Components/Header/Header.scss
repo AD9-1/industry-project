@@ -19,12 +19,13 @@
     }
   }
   &__image {
-    width: 14%;
-    background-color: rgb(165, 173, 173);
-    border-radius: 50%;
-    height: 45px;
-    width: 55px;
+    width: 6%;
     margin-right: 15px;
+    img {
+      border-radius: 50%;
+      height: 55px;
+      width: 55px;
+    }
   }
   &__info {
     width: 65%;

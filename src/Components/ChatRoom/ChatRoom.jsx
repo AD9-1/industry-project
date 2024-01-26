@@ -9,11 +9,11 @@ const ChatRoom = ({ chatRooms }) => {
   console.log(singleChat[0]);
   return (
     <div>
-       <Header roomName={singleChat[0].name} />
-      <MessageBody
-        roomLastMessage={singleChat[0].lastMessage}
+      <Header
+        roomName={singleChat[0].name}
+        roomAvatar={singleChat[0].imageUrl}
       />
-     
+      <MessageBody roomLastMessage={singleChat[0].lastMessage} />
     </div>
   );
 };
