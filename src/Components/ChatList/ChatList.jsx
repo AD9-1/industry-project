@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import "./ChatList.scss";
 import { useNavigate } from "react-router-dom";
-
+import VoiceAssistantBar from "../VoiceAssistantBar/VoiceAssistantBar"
 const ChatList = ({chatRooms}) => {
   const [fontSize, setFontSize] = useState(16); // Initial font size
   const navigate = useNavigate();
@@ -68,6 +68,7 @@ const ChatList = ({chatRooms}) => {
           </div>
         </div>
       </div>
+      <VoiceAssistantBar/>
     </div>
   );
 };

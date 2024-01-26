@@ -2,6 +2,7 @@ import React from "react";
 import MessageBody from "../MessageBody/MessageBody";
 import Header from "../Header/Header";
 import { useParams } from "react-router-dom";
+import VoiceAssistantBar from "../VoiceAssistantBar/VoiceAssistantBar";
 
 const ChatRoom = ({ chatRooms }) => {
   const { roomId } = useParams();
@@ -9,11 +10,9 @@ const ChatRoom = ({ chatRooms }) => {
   console.log(singleChat[0]);
   return (
     <div>
-       <Header roomName={singleChat[0].name} />
-      <MessageBody
-        roomLastMessage={singleChat[0].lastMessage}
-      />
-     
+      <Header roomName={singleChat[0].name} />
+      <MessageBody roomLastMessage={singleChat[0].lastMessage} />
+      <VoiceAssistantBar/>
     </div>
   );
 };
