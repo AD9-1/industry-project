@@ -2,25 +2,31 @@
     display: flex;
     align-items: center;
     background-color: #f0f0f0;
-    padding: 10px;
     border-radius: 20px;
-    margin: 10px;
-    position: sticky;
-    bottom:0;
+    margin-left: 10px;
+    position: fixed;
+    width:95%;
+    bottom:5px;
   }
   
   .whatapp-input .input-field {
     flex-grow: 1;
     margin: 0 10px;
-    padding: 8px 12px;
+    padding: 20px 20px;
     border-radius: 15px;
-    border: none;
+    border: 1px solid #d6cccc;
     outline: none;
+    
   }
+  ::placeholder{
+    font-size:20px;
+  } 
   
   .whatapp-input .icon {
     color: #128C7E;
     margin: 0 5px;
     cursor: pointer;
+ 
+    height:40px;
   }
   
