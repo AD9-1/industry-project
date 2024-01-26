@@ -1,0 +1,38 @@
+.wa-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: rgba(31, 116, 104, 0.785);
+  &__back {
+    width: 5%;
+    height: 15%;
+    img {
+      // width:10%;
+      height: 20px;
+    }
+  }
+  &__image {
+    width: 10%;
+    background-color: rgb(165, 173, 173);
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+  }
+  &__info {
+    width: 50%;
+    p {
+      margin: 0;
+      font-size: 13px;
+    }
+  }
+  &__icons {
+    width: 10%;
+    &__video {
+      width: 20px;
+    }
+    &__call {
+      width: 20px;
+    }
+  }
+}
