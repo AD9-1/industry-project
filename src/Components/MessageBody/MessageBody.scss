@@ -1,0 +1,58 @@
+
+.chat-container {
+  position: relative;
+  top: 120px;
+  z-index: -3;
+
+}
+
+.chat {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.message {
+  background-color: #afb6aa;
+  padding: 10px;
+  border-radius: 8px;
+
+  margin: 20px;
+  align-self: flex-start;
+}
+
+.outgoing {
+  align-self: flex-end;
+  background-color: #dcf8c6;
+}
+
+.time {
+  margin-top: 5px;
+  font-size: 20px;
+  color: #353333;
+  text-align: end;
+}
+
+.whatapp-input {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: #f0f0f0;
+}
+
+.icon {
+  margin-right: 10px;
+  color: #555;
+}
+
+.input-field {
+  flex: 1;
+  padding: 8px;
+  border: none;
+  border-radius: 20px;
+  margin-right: 10px;
+  outline: none;
+}
+.text{
+font-size:25px;
+}
