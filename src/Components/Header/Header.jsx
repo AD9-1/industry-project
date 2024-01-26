@@ -31,7 +31,7 @@ const Header = ({ roomName }) => {
         <img className="wa-header__icons__call" src={callIcon}></img>
       </div>
       <div className="wa-header__icons option">
-        <SlOptionsVertical />
+        <SlOptionsVertical size={30} margin="auto" />
       </div>
     </div>
   );
