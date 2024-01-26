@@ -9,7 +9,7 @@ const Header = ({ roomName }) => {
   return (
     <div className="wa-header">
       <div className="wa-header__back">
-        <NavLink to="/">
+        <NavLink to="/chat">
           <img src={backarrow} />
         </NavLink>
       </div>

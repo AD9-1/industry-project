@@ -2,6 +2,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
 import ChatList from "./Components/ChatList/ChatList";
 import ChatRoom from "./Components/ChatRoom/ChatRoom";
+import VoiceAssistantBar from "./Components/VoiceAssistantBar/VoiceAssistantBar.jsx";
 
 function App() {
   const chatRooms = [
@@ -66,13 +67,15 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<ChatList chatRooms={chatRooms} />} />
+          
+          <Route path="/chat" element={<ChatList chatRooms={chatRooms} />} />
           <Route
             path="/chatroom/:roomId"
             element={<ChatRoom chatRooms={chatRooms} />}
           />
         </Routes>
       </BrowserRouter>
+      <VoiceAssistantBar/>
     </div>
   );
 }
