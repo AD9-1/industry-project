@@ -26,16 +26,7 @@ const MessageBody = () => {
           </div>
         </div>
       </div>
-      <div className="whatapp-input">
-        <FontAwesomeIcon icon={faPlus} className="icon" />
-        <input
-          type="text"
-          className="input-field"
-          placeholder="Type a message"
-        />
-        <FontAwesomeIcon icon={faCamera} className="icon" />
-        <FontAwesomeIcon icon={faMicrophone} className="icon" />
-      </div>
+      <MessageInput />
     </div>
   );
 };
