@@ -6,13 +6,14 @@
   align-items: center;
   padding-top: 20px;
   padding-bottom: 20px;
+  padding-right: 20px;
   background-color: rgba(31, 116, 104, 0.785);
 
   &__back {
     width: 5%;
     height: 15%;
     margin-right: 15px;
-    margin-left:15px;
+    margin-left: 15px;
     img {
       height: 30px;
     }
@@ -26,22 +27,27 @@
     margin-right: 15px;
   }
   &__info {
-    width: 60%;
+    width: 65%;
     p {
       margin: 0;
       font-size: 23px;
     }
   }
   &__icons {
-    width: 15%;
-    text-align: center;
+    width: 18%;
+    display: flex;
+    justify-content: center;
 
     &__video {
-      height: 40px;
-      margin: 0;
+      height: 43px;
+      margin-right: 3px;
     }
     &__call {
-      height: 30px;
+      height: 35px;
     }
+  }
+  .option {
+    display: flex;
+    justify-content: center;
   }
 }

@@ -2,7 +2,11 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
 import ChatList from "./Components/ChatList/ChatList";
 import ChatRoom from "./Components/ChatRoom/ChatRoom";
+<<<<<<< HEAD
 import VoiceAssistantBar from "./Components/VoiceAssistantBar/VoiceAssistantBar.jsx";
+=======
+import SignUpPage from "./Pages/SignUpPage/SignUpPage";
+>>>>>>> b81828beca4d4bd884aba43950c7cb5686a98310
 
 function App() {
   const chatRooms = [
@@ -65,9 +69,10 @@ function App() {
   ];
   return (
     <div className="App">
+
       <BrowserRouter>
         <Routes>
-          
+          <Route path="/" element={<SignUpPage/>}/>
           <Route path="/chat" element={<ChatList chatRooms={chatRooms} />} />
           <Route
             path="/chatroom/:roomId"
