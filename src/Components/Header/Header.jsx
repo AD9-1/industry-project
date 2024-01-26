@@ -19,7 +19,7 @@ const Header = ({ roomName, roomAvatar }) => {
           <p>{roomName}</p>
         </div>
         <div className="wa-header__info__time">
-          <p>Last seen 3:58pm</p>
+          <p>Last seen 3:58 pm</p>
         </div>
       </div>
 
