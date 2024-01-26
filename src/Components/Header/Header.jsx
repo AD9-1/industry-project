@@ -14,7 +14,7 @@ const Header = () => {
         <div className="wa-header__info__name">
           <p>Jayme</p>
         </div>
-        <div className="wa-header__info__time"><p>3:58pm</p></div>
+        <div className="wa-header__info__time"><p>Last seen 3:58pm</p></div>
       </div>
 
       <div className="wa-header__icons">
