@@ -2,20 +2,7 @@ input#fontSize {
   width: 100% !important ;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-
-
-/* voice helper*/
 .bottom-bar {
   background-color: #333;
   position: fixed;

@@ -1,22 +1,16 @@
 import React from "react";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { fas } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
-import {
-  faPlus,
-  faCamera,
-  faMicrophone,
-} from "@fortawesome/free-solid-svg-icons";
 import "./MessageBody.scss";
+import MessageInput from "../MessageInput/MessageInput";
 library.add(fas);
-const MessageBody = () => {
+const MessageBody = ({roomLastMessage}) => {
   return (
     <div className="chat-container">
       <div className="chat">
         <div className="message">
           <div className="text">
-            Hello! How are you?<div className="time">10:30 AM</div>
+            {roomLastMessage}<div className="time">10:30 AM</div>
           </div>
         </div>
 

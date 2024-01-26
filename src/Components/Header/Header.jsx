@@ -4,16 +4,19 @@ import cameraIcon from "../../assets/video-solid.svg";
 import callIcon from "../../assets/phone-solid.svg";
 import backarrow from "../../assets/arrow-left-solid.svg";
 import { SlOptionsVertical } from "react-icons/sl";
-const Header = () => {
+import { NavLink } from "react-router-dom";
+const Header = ({ roomName }) => {
   return (
     <div className="wa-header">
       <div className="wa-header__back">
-        <img src={backarrow} />
+        <NavLink to="/">
+          <img src={backarrow} />
+        </NavLink>
       </div>
       <div className="wa-header__image"></div>
       <div className="wa-header__info">
         <div className="wa-header__info__name">
-          <p>Jayme</p>
+          <p>{roomName}</p>
         </div>
         <div className="wa-header__info__time">
           <p>Last seen 3:58pm</p>
@@ -28,7 +31,7 @@ const Header = () => {
         <img className="wa-header__icons__call" src={callIcon}></img>
       </div>
       <div className="wa-header__icons option">
-        <SlOptionsVertical  />
+        <SlOptionsVertical />
       </div>
     </div>
   );
