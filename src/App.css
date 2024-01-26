@@ -1,5 +1,5 @@
-.App {
-
+input#fontSize {
+  width: 100% !important ;
 }
 
 .App-logo {
@@ -13,3 +13,31 @@
   }
 }
 
+
+
+/* voice helper*/
+.bottom-bar {
+  background-color: #333;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  padding: 10px 0;
+  z-index: 100;
+}
+
+.voice-assistant-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 0 auto;
+}
+
+.voice-assistant-button i {
+  margin-right: 5px;
+}
